@@ -1,0 +1,23 @@
+.header {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+}
+
+.header__title {
+  font-size: 54px;
+  text-align: center;
+  margin: 20px 0 20px;
+}
+
+@media screen and (max-width: 610px) {
+  .header__title {
+    font-size: 44px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .header__title {
+    font-size: 34px;
+  }
+}
