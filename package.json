@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://jlcambraia.github.io/web_project_imc_calculator/",
   "scripts": {
     "dev": "vite --open",
     "build": "vite build",
