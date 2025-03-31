@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 10vh;
+}
+
+.footer__copyright {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #000;
+  text-align: center;
+}
+
+@media screen and (max-width: 410px) {
+  .footer__copyright {
+    font-size: 12px;
+  }
+}
