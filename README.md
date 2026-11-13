@@ -1,45 +1,109 @@
-# web_project_imc_calculator
+# BMI Calculator — React Application
 
-## Link para o GitHub Pages:
+An interactive Body Mass Index (BMI) calculator built with **React 19 and Vite 6**, demonstrating form validation, state management, and conditional rendering.
 
-O site está disponível no GitHub Pages: [Clique aqui para acessar](https://jlcambraia.github.io/web_project_imc_calculator/)
+**[Live Demo](https://jlcambraia.github.io/web_project_imc_calculator/)**
 
-## Descrição do Projeto:
+## Overview
 
-A "Calculadora de IMC" é uma aplicação interativa desenvolvida em React que permite aos usuários calcularem seu Índice de Massa Corporal (IMC) de maneira simples e intuitiva. O fluxo da aplicação segue os seguintes passos:
+BMI Calculator is a responsive web application that allows users to calculate their Body Mass Index using height and weight measurements. The project focuses on an intuitive user experience while practicing core React concepts.
 
-**1.** O usuário insere sua altura.
+## Features
 
-**2.** Aparece um campo para inserir o peso.
+- Step-by-step height and weight input
+- Automatic BMI calculation
+- Numeric input validation
+- Dynamic display of calculation results
+- Conditional rendering based on user interaction
+- Illustrative article suggestions based on BMI results
+- Reset functionality
+- Responsive layout for desktop and mobile
 
-**3.** O IMC é calculado automaticamente e exibido na tela.
+> Suggested articles are fictional demonstration content and should not be treated as medical advice.
 
-**4.** São apresentados artigos fictícios com sugestões baseadas no resultado.
+## Tech Stack
 
-**5.** Um botão permite resetar o cálculo e recomeçar.
+React 19 · Vite 6 · JavaScript (ES6+) · React Hooks · CSS3 · HTML5 · GitHub Pages
 
-**6.** A aplicação inclui validação de dados para garantir que apenas números sejam aceitos nos campos de entrada.
+## How It Works
 
-## Tecnologias e Técnicas Utilizadas:
+```text
+Enter Height
+     |
+Enter Weight
+     |
+Validate Inputs
+     |
+Calculate BMI
+     |
+Display Results
+     |
+Reset or Start Again
+```
 
-- **React**: Utilização de componentes funcionais para criar uma interface dinâmica e responsiva.
+### BMI Formula
 
-- **Hooks (useState)**: Gerenciamento de estado para controlar os inputs e a exibição dos resultados.
+```text
+BMI = weight (kg) / height (m)²
+```
 
-- **Validação de Dados**: Garante que apenas valores numéricos sejam inseridos nos campos de entrada.
+For example, 70 kg and 1.75 m yield a BMI of approximately 22.86.
 
-- **Renderização Condicional**: Exibição dinâmica dos inputs e do resultado conforme o usuário interage com a aplicação.
+## React Concepts
 
-- **CSS Modularizado**: Estilização separada para garantir uma melhor manutenção e organização do código.
+- **State management:** React's `useState` manages input values, calculation progress, results, and reset behavior.
+- **Conditional rendering:** The interface displays different content based on the current state.
+- **Input validation:** Input checks prevent nonnumeric values from being processed.
 
-- **Responsividade**: A interface se adapta a diferentes tamanhos de tela, proporcionando uma boa experiência em dispositivos móveis e desktops.
+## Getting Started
 
-## Planos de Melhoria:
+Requires Node.js and npm.
 
-- Implementar um histórico de cálculos anteriores.
+```bash
+git clone https://github.com/jlcambraia/web_project_imc_calculator.git
+cd web_project_imc_calculator
+npm install
+npm run dev
+```
 
-- Adicionar uma opção para escolher entre diferentes unidades de medida (metros/kg e pés/libras).
+Open the local URL displayed by Vite.
 
-- Incluir dicas reais de saúde com base no IMC calculado.
+Build and preview:
 
-- Melhorar a identidade visual com animações e transições mais fluidas.
+```bash
+npm run build
+npm run preview
+```
+
+Deploy using the repository's GitHub Pages script:
+
+```bash
+npm run deploy
+```
+
+## Learning Outcomes
+
+- Functional React components
+- State management with React Hooks
+- Form input handling and conditional rendering
+- Mathematical calculations in JavaScript
+- Responsive UI development and deployment
+
+## Potential Improvements
+
+- Calculation history
+- Metric and imperial unit selection
+- Improved accessibility
+- More informative result explanations
+- Additional automated tests
+- Enhanced animations and transitions
+
+## Disclaimer
+
+BMI is a general screening measurement and does not provide an individualized assessment of health. This application is intended for educational and demonstration purposes.
+
+## Author
+
+**João Luiz Cambraia**
+
+[GitHub](https://github.com/jlcambraia) · [LinkedIn](https://www.linkedin.com/in/joaoluizcambraia/)
